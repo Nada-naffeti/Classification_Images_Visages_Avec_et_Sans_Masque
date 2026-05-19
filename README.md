@@ -14,7 +14,7 @@ This project builds a deep learning pipeline to classify face images into two ca
 | **Dataset** | [Face Mask Dataset — Kaggle](https://www.kaggle.com/datasets/omkargurav/face-mask-dataset) |
 | **Task** | Binary classification (with mask / without mask) |
 | **Classes** | `0` = with mask · `1` = without mask |
-| **Best model** | CNN + CBAM — Precision: 95.03% · Recall: 96.09% |
+| **Best model** | MobileNetV2 — Accuracy: 98.68% · F1-Score: 98.68% |
 
 ---
 
@@ -61,11 +61,11 @@ This project builds a deep learning pipeline to classify face images into two ca
 
 | Model | Accuracy | Precision | Recall | F1-Score |
 |-------|----------|-----------|--------|----------|
-| CNN | — | — | — | — |
-| **CNN + CBAM** | — | **95.03%** | **96.09%** | — |
-| MobileNetV2 | — | — | — | — |
+| CNN | 94.44% | 94.58% | 94.44% | 94.45% |
+| CNN + CBAM | 94.97% | 95.04% | 94.97% | 94.97% |
+| **MobileNetV2** | **98.68%** | **98.68%** | **98.68%** | **98.68%** |
 
-> Results are computed on the held-out test set. Final values depend on training run.
+> MobileNetV2 (transfer learning) significantly outperforms both custom CNN architectures, achieving ~98.7% across all metrics on the test set.
 
 ---
 
