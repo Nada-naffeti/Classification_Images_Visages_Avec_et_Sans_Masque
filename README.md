@@ -1,4 +1,4 @@
-# Face Mask Detection — CNN with CBAM Attention Module
+# Face Mask Detection : CNN with CBAM Attention Module
 
 **Binary image classification: faces with and without mask**  
 CNN · CBAM Attention · MobileNetV2 · Transfer Learning · Data Augmentation
