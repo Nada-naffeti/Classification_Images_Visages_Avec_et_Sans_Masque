@@ -14,7 +14,7 @@ This project builds a deep learning pipeline to classify face images into two ca
 | **Dataset** | [Face Mask Dataset — Kaggle](https://www.kaggle.com/datasets/omkargurav/face-mask-dataset) |
 | **Task** | Binary classification (with mask / without mask) |
 | **Classes** | `0` = with mask · `1` = without mask |
-| **Best model** | MobileNetV2 — Accuracy: 98.68% · F1-Score: 98.68% |
+| **Best model** | MobileNetV2 : Accuracy: 98.68% · F1-Score: 98.68% |
 
 ---
 
